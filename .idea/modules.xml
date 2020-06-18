@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hub-spot-csp.iml" filepath="$PROJECT_DIR$/.idea/modules/hub-spot-csp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hub-spot-csp.main.iml" filepath="$PROJECT_DIR$/.idea/modules/hub-spot-csp.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/hub-spot-csp.test.iml" filepath="$PROJECT_DIR$/.idea/modules/hub-spot-csp.test.iml" />
+    </modules>
+  </component>
+</project>

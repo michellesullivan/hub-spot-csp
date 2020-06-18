@@ -1,0 +1,42 @@
+<appian-plugin name="Zimpatica Connected System - HubSpot" key="com.zimpatica.hubspot">
+
+  <plugin-info>
+    <description>My Corp Connected System - Hello World</description>
+    <vendor name="Zimpatica" url="http://www.zimpatica.com"/>
+    <version>1.0.0.0</version>
+    <application-version min="7.6.0.4"/>
+  </plugin-info>
+
+  <connected-system-template key="HubspotConnectedSystem" name="HubspotConnectedSystem"
+                             class="com.zimpatica.hubspot.templates.HubspotConnectedSystem">
+
+    <integration-template key="CreateContactIntegration" name="CreateContactIntegration"
+                          class="com.zimpatica.hubspot.templates.CreateContactIntegration" />
+    <integration-template key="GetContactsIntegration" name="GetContactsIntegration"
+                          class="com.zimpatica.hubspot.templates.GetContactsIntegration" />
+    <integration-template key="GetCompanyById" name="GetCompanyById"
+                          class="com.zimpatica.hubspot.templates.GetCompanyById" />
+    <integration-template key="CreateCompanyByDomain" name="CreateCompanyByDomain"
+                          class="com.zimpatica.hubspot.templates.CreateCompanyByDomain" />
+    <integration-template key="GetCompanies" name="GetCompanies"
+                          class="com.zimpatica.hubspot.templates.GetCompanies" />
+    <integration-template key="AddContactToCompany" name="AddContactToCompany"
+                          class="com.zimpatica.hubspot.templates.AddContactToCompany" />
+    <integration-template key="GetContactById" name="GetContactById"
+                          class="com.zimpatica.hubspot.templates.GetContactById" />
+    <integration-template key="GetContactsForCompany" name="GetContactsForCompany"
+                          class="com.zimpatica.hubspot.templates.GetContactsForCompany" />
+    <integration-template key="UpdateContact" name="UpdateContact"
+                          class="com.zimpatica.hubspot.templates.UpdateContact" />
+    <integration-template key="DeleteContact" name="DeleteContact"
+                          class="com.zimpatica.hubspot.templates.DeleteContact" />
+    <integration-template key="DeleteCompany" name="DeleteCompany"
+                          class="com.zimpatica.hubspot.templates.DeleteCompany" />
+    <integration-template key="CreateDeal" name="CreateDeal"
+                          class="com.zimpatica.hubspot.templates.CreateDeal" />
+    <integration-template key="GetDeals" name="GetDeals"
+                          class="com.zimpatica.hubspot.templates.GetDeals" />
+    <integration-template key="DeleteCompany" name="DeleteDeal"
+                          class="com.zimpatica.hubspot.templates.DeleteDeal" />
+  </connected-system-template>
+</appian-plugin>
