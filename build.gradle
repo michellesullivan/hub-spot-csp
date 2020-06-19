@@ -13,7 +13,7 @@ dependencies {
   compile("com.fasterxml.jackson.core:jackson-databind:2.9.8")
   compile("com.fasterxml.jackson.core:jackson-core:2.9.8")
   compile('org.apache.httpcomponents:httpclient:4.5.6'){
-//    exclude group: 'commons-logging', module: 'commons-logging'
+    exclude group: 'commons-logging', module: 'commons-logging'
     exclude group: 'commons-codec', module: 'commons-codec'
   }
 }

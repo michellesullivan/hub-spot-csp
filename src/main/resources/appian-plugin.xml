@@ -32,8 +32,6 @@
                           class="com.zimpatica.hubspot.templates.DeleteContact" />
     <integration-template key="DeleteCompany" name="DeleteCompany"
                           class="com.zimpatica.hubspot.templates.DeleteCompany" />
-    <integration-template key="CreateDeal" name="CreateDeal"
-                          class="com.zimpatica.hubspot.templates.CreateDeal" />
     <integration-template key="GetDeals" name="GetDeals"
                           class="com.zimpatica.hubspot.templates.GetDeals" />
     <integration-template key="DeleteCompany" name="DeleteDeal"
